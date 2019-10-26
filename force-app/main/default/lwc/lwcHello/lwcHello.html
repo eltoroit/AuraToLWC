@@ -2,7 +2,9 @@
 	<lightning-card title="LWC_Hello" icon-name="action:announcement">
 		<!--		
 			<aura:set attribute="actions">
-				<lightning:button label="Count" onclick="{!c.count}" />
+		-->
+		<lightning-button label="Count" onclick={count}></lightning-button>
+		<!--		
 			</aura:set>
 			<div class="slds-m-around_medium">
 				<p>Hello, {!v.greeting}!</p>
