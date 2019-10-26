@@ -1,6 +1,7 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, track } from 'lwc';
 
 export default class LwcHello extends LightningElement {
+	@track greeting = "world";
 	/*
 	({
 		count: function (component, event, helper) {
