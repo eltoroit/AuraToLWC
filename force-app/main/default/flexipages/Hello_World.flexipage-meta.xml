@@ -4,6 +4,9 @@
         <componentInstances>
             <componentName>auraHello</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentName>lwcHello</componentName>
+        </componentInstances>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
