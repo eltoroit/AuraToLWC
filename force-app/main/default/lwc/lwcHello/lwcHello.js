@@ -7,4 +7,8 @@ export default class LwcHello extends LightningElement {
 		// eslint-disable-next-line no-alert
 		alert(this.greeting.length + " letters");
 	}
+
+	handleChange(event) {
+		this.greeting = event.target.value;
+	}
 }
