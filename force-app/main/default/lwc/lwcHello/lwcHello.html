@@ -3,9 +3,7 @@
 		<lightning-button label="Count" onclick={count} slot="actions"></lightning-button>
 		<div class="slds-m-around_medium">
 			<p>Hello, {greeting}!</p>
-			<!--		
-				<lightning:input label="Name" value="{!v.greeting}" />
-			-->
+			<lightning-input label="Name" value={greeting}></lightning-input>
 		</div>
 	</lightning-card>
 </template>
